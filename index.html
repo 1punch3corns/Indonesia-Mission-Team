@@ -298,6 +298,19 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
 .id-num{width:30px;height:30px;border-radius:50%;background:var(--red);color:#fff;font-weight:700;font-size:.85rem;display:flex;align-items:center;justify-content:center;margin:0 auto .35rem}
 .id-name{font-size:.74rem;font-weight:700;color:var(--ink);line-height:1.3;word-break:keep-all}
 
+/* 방배정표 */
+.room-card{background:#fff;border-radius:var(--r);padding:1rem 1.1rem;margin-bottom:.7rem;border:1px solid var(--line);box-shadow:0 2px 10px rgba(44,24,16,.06)}
+.room-card-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:.7rem}
+.room-num-badge{display:flex;align-items:center;gap:.55rem}
+.room-num-circle{width:34px;height:34px;border-radius:10px;background:var(--red);color:#fff;font-weight:900;font-size:.95rem;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.room-type-badge{font-size:.74rem;font-weight:700;color:var(--teal);background:rgba(27,107,94,.1);padding:.25rem .7rem;border-radius:999px}
+.room-nights-badge{font-size:.72rem;font-weight:700;color:var(--gold);background:rgba(200,144,42,.12);padding:.25rem .7rem;border-radius:999px;margin-left:.4rem}
+.room-members{display:flex;flex-wrap:wrap;gap:.45rem;margin-bottom:.6rem}
+.room-member-chip{background:var(--sand);border:1px solid var(--tan);border-radius:999px;padding:.32rem .85rem;font-size:.85rem;font-weight:700}
+.room-meta{display:flex;gap:1rem;font-size:.78rem;color:var(--ink-soft);flex-wrap:wrap}
+.room-meta span{display:flex;align-items:center;gap:.3rem}
+.room-checkout-note{margin-top:.5rem;background:#FFF3E0;border:1px solid #F0C674;border-radius:8px;padding:.5rem .75rem;font-size:.78rem;color:#8a5a00;font-weight:700}
+
 /* 업무분장 */
 .duty-item{background:#fff;border-radius:10px;padding:1rem;margin-bottom:.7rem;border:1px solid var(--line)}
 .duty-title{font-weight:700;font-size:.95rem;color:var(--red);margin-bottom:.6rem;padding-bottom:.4rem;border-bottom:1px solid var(--line)}
@@ -593,6 +606,128 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
         <li>한국과 인도네시아 출발 전 공용 짐 리스트를 체크하고 빠짐없이 확인한다.</li>
         <li>현지에서 팀이 이동할 때 마지막까지 남아서 빠진 인원은 없는지, 놓고 가는 물건은 없는지 확인한다.</li>
       </ul>
+    </div>
+  </div>
+
+  <div class="card">
+    <p class="card-title">🛏 올리브 호텔 방배정표</p>
+    <p style="font-size:.8rem;color:var(--ink-soft);margin-bottom:.9rem">총 13개 객실 · 28명 배정 (DAY1~3 숙박, 13번 객실은 7/25 체크아웃)</p>
+    <div class="room-card">
+      <div class="room-card-top">
+        <div class="room-num-badge"><div class="room-num-circle">1</div><span style="font-weight:700;font-size:.92rem">3인실</span></div>
+        <div><span class="room-type-badge">가족</span><span class="room-nights-badge">3박</span></div>
+      </div>
+      <div class="room-members"><span class="room-member-chip">엄준민</span><span class="room-member-chip">김민진</span><span class="room-member-chip">엄라엘</span></div>
+      <div class="room-meta"><span>🛏 더블 + 싱글</span><span>👥 3명</span></div>
+      
+    </div>
+    <div class="room-card">
+      <div class="room-card-top">
+        <div class="room-num-badge"><div class="room-num-circle">2</div><span style="font-weight:700;font-size:.92rem">3인실</span></div>
+        <div><span class="room-type-badge">룸메이트</span><span class="room-nights-badge">3박</span></div>
+      </div>
+      <div class="room-members"><span class="room-member-chip">황진숙</span><span class="room-member-chip">이창신</span><span class="room-member-chip">손혜린</span></div>
+      <div class="room-meta"><span>🛏 더블 + 싱글</span><span>👥 3명</span></div>
+      
+    </div>
+    <div class="room-card">
+      <div class="room-card-top">
+        <div class="room-num-badge"><div class="room-num-circle">3</div><span style="font-weight:700;font-size:.92rem">2인실</span></div>
+        <div><span class="room-type-badge">가족</span><span class="room-nights-badge">3박</span></div>
+      </div>
+      <div class="room-members"><span class="room-member-chip">배재학</span><span class="room-member-chip">정미경</span></div>
+      <div class="room-meta"><span>🛏 더블</span><span>👥 2명</span></div>
+      
+    </div>
+    <div class="room-card">
+      <div class="room-card-top">
+        <div class="room-num-badge"><div class="room-num-circle">4</div><span style="font-weight:700;font-size:.92rem">2인실</span></div>
+        <div><span class="room-type-badge">가족</span><span class="room-nights-badge">3박</span></div>
+      </div>
+      <div class="room-members"><span class="room-member-chip">김갑석</span><span class="room-member-chip">안유정</span></div>
+      <div class="room-meta"><span>🛏 더블</span><span>👥 2명</span></div>
+      
+    </div>
+    <div class="room-card">
+      <div class="room-card-top">
+        <div class="room-num-badge"><div class="room-num-circle">5</div><span style="font-weight:700;font-size:.92rem">2인실</span></div>
+        <div><span class="room-type-badge">가족</span><span class="room-nights-badge">3박</span></div>
+      </div>
+      <div class="room-members"><span class="room-member-chip">김대훈</span><span class="room-member-chip">김선정</span></div>
+      <div class="room-meta"><span>🛏 더블</span><span>👥 2명</span></div>
+      
+    </div>
+    <div class="room-card">
+      <div class="room-card-top">
+        <div class="room-num-badge"><div class="room-num-circle">6</div><span style="font-weight:700;font-size:.92rem">2인실</span></div>
+        <div><span class="room-type-badge">가족</span><span class="room-nights-badge">3박</span></div>
+      </div>
+      <div class="room-members"><span class="room-member-chip">박노산</span><span class="room-member-chip">홍근영</span></div>
+      <div class="room-meta"><span>🛏 더블</span><span>👥 2명</span></div>
+      
+    </div>
+    <div class="room-card">
+      <div class="room-card-top">
+        <div class="room-num-badge"><div class="room-num-circle">7</div><span style="font-weight:700;font-size:.92rem">2인실</span></div>
+        <div><span class="room-type-badge">가족</span><span class="room-nights-badge">3박</span></div>
+      </div>
+      <div class="room-members"><span class="room-member-chip">김호규</span><span class="room-member-chip">이은숙</span></div>
+      <div class="room-meta"><span>🛏 더블</span><span>👥 2명</span></div>
+      
+    </div>
+    <div class="room-card">
+      <div class="room-card-top">
+        <div class="room-num-badge"><div class="room-num-circle">8</div><span style="font-weight:700;font-size:.92rem">2인실</span></div>
+        <div><span class="room-type-badge">가족</span><span class="room-nights-badge">3박</span></div>
+      </div>
+      <div class="room-members"><span class="room-member-chip">정인곤</span><span class="room-member-chip">정세미</span></div>
+      <div class="room-meta"><span>🛏 더블</span><span>👥 2명</span></div>
+      
+    </div>
+    <div class="room-card">
+      <div class="room-card-top">
+        <div class="room-num-badge"><div class="room-num-circle">9</div><span style="font-weight:700;font-size:.92rem">2인실</span></div>
+        <div><span class="room-type-badge">가족</span><span class="room-nights-badge">3박</span></div>
+      </div>
+      <div class="room-members"><span class="room-member-chip">강순원</span><span class="room-member-chip">안현주</span></div>
+      <div class="room-meta"><span>🛏 더블</span><span>👥 2명</span></div>
+      
+    </div>
+    <div class="room-card">
+      <div class="room-card-top">
+        <div class="room-num-badge"><div class="room-num-circle">10</div><span style="font-weight:700;font-size:.92rem">2인실</span></div>
+        <div><span class="room-type-badge">가족</span><span class="room-nights-badge">3박</span></div>
+      </div>
+      <div class="room-members"><span class="room-member-chip">이정우</span><span class="room-member-chip">김은숙</span></div>
+      <div class="room-meta"><span>🛏 더블</span><span>👥 2명</span></div>
+      
+    </div>
+    <div class="room-card">
+      <div class="room-card-top">
+        <div class="room-num-badge"><div class="room-num-circle">11</div><span style="font-weight:700;font-size:.92rem">2인실</span></div>
+        <div><span class="room-type-badge">룸메이트</span><span class="room-nights-badge">3박</span></div>
+      </div>
+      <div class="room-members"><span class="room-member-chip">김주환</span><span class="room-member-chip">이강산</span></div>
+      <div class="room-meta"><span>🛏 싱글 + 싱글</span><span>👥 2명</span></div>
+      
+    </div>
+    <div class="room-card">
+      <div class="room-card-top">
+        <div class="room-num-badge"><div class="room-num-circle">12</div><span style="font-weight:700;font-size:.92rem">2인실</span></div>
+        <div><span class="room-type-badge">룸메이트</span><span class="room-nights-badge">3박</span></div>
+      </div>
+      <div class="room-members"><span class="room-member-chip">김효범</span><span class="room-member-chip">진서미</span></div>
+      <div class="room-meta"><span>🛏 싱글 + 싱글</span><span>👥 2명</span></div>
+      
+    </div>
+    <div class="room-card">
+      <div class="room-card-top">
+        <div class="room-num-badge"><div class="room-num-circle">13</div><span style="font-weight:700;font-size:.92rem">2인실</span></div>
+        <div><span class="room-type-badge">가족</span><span class="room-nights-badge">2박</span></div>
+      </div>
+      <div class="room-members"><span class="room-member-chip">전수현</span><span class="room-member-chip">유혜연</span></div>
+      <div class="room-meta"><span>🛏 싱글 + 싱글</span><span>👥 2명</span></div>
+      <div class="room-checkout-note">⚠ 7/25 Check out</div>
     </div>
   </div>
 
@@ -1361,102 +1496,223 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
     <div class="info-row" style="border-bottom:0"><span class="info-label">기타</span><span class="info-val">선교팀 단체복 착용 · 아천홀 데코 (현수막, 국기 등)</span></div>
   </div>
 
-  <!-- 예배 순서 -->
-  <div style="background:#fff;border-radius:var(--r);padding:1.1rem 1.2rem;border:1px solid var(--line)">
-    <div style="font-weight:700;color:var(--red);font-size:.9rem;margin-bottom:.8rem;padding-bottom:.5rem;border-bottom:1px solid var(--line)">🕐 예배 순서</div>
+  <!-- 사전 세팅 (6/27 토요일) -->
+  <div style="background:#fff;border-radius:var(--r);padding:1.1rem 1.2rem;margin-bottom:.9rem;border:1px solid var(--line)">
+    <div style="font-weight:700;color:var(--red);font-size:.9rem;margin-bottom:.8rem;padding-bottom:.5rem;border-bottom:1px solid var(--line)">🔧 사전 세팅 준비물 · 6/27(토) 13:00~14:00 · 아천홀</div>
+    <div class="info-row"><span class="info-label">무대현수막</span><span class="info-val">700×240 · 제작 강영철</span></div>
+    <div class="info-row"><span class="info-label">국가별현수막</span><span class="info-val">기존 것 사용 (제작 불필요)</span></div>
+    <div class="info-row"><span class="info-label">순서지</span><span class="info-val">A4 · 제작 강영철</span></div>
+    <div class="info-row"><span class="info-label">특송악보</span><span class="info-val">A4 · 제작 이효상 목사 · 각 팀 사역자/단장/총무용</span></div>
+    <div class="info-row"><span class="info-label">선서문</span><span class="info-val">A4 · 제작 이효상 목사 · 김남훈(장로)/서영심(청년)/송성경(유초등부)</span></div>
+    <div class="info-row" style="border-bottom:0"><span class="info-label">예배PPT</span><span class="info-val">제작 이효상·신우철 · 좌석 및 미라클 현황보고 PPT</span></div>
+  </div>
+
+  <!-- 당일 사전세팅 (6/28 주일, 예배 전) -->
+  <div style="background:#fff;border-radius:var(--r);padding:1.1rem 1.2rem;margin-bottom:.9rem;border:1px solid var(--line)">
+    <div style="font-weight:700;color:var(--red);font-size:.9rem;margin-bottom:.8rem;padding-bottom:.5rem;border-bottom:1px solid var(--line)">⏱ 당일 예배 전 진행 · 6/28(주일)</div>
     <div style="overflow-x:auto">
-      <table style="width:100%;border-collapse:collapse;font-size:.82rem;min-width:320px">
+      <table style="width:100%;border-collapse:collapse;font-size:.81rem;min-width:300px">
         <thead>
-          <tr style="background:var(--red);color:#fff">
-            <th style="padding:.5rem .6rem;text-align:left;white-space:nowrap;border-radius:6px 0 0 0">시간</th>
-            <th style="padding:.5rem .6rem;text-align:left">내용</th>
-            <th style="padding:.5rem .6rem;text-align:left">담당</th>
-            <th style="padding:.5rem .6rem;text-align:left;border-radius:0 6px 0 0">비고</th>
+          <tr style="background:var(--sand)">
+            <th style="padding:.5rem .5rem;text-align:left;border-bottom:2px solid var(--tan);white-space:nowrap">시간</th>
+            <th style="padding:.5rem .5rem;text-align:left;border-bottom:2px solid var(--tan)">내용</th>
+            <th style="padding:.5rem .5rem;text-align:left;border-bottom:2px solid var(--tan)">비고</th>
           </tr>
         </thead>
         <tbody>
           <tr style="border-bottom:1px solid var(--line)">
-            <td style="padding:.5rem .6rem;white-space:nowrap;color:var(--ink-soft)">14:25–14:35</td>
-            <td style="padding:.5rem .6rem;font-weight:700">경배와 찬양</td>
-            <td style="padding:.5rem .6rem">엄준민 목사</td>
-            <td style="padding:.5rem .6rem;font-size:.78rem;color:var(--ink-soft)">미라클14팀(아름다운 예배팀)으로 찬양팀 구성</td>
+            <td style="padding:.5rem .5rem;white-space:nowrap;color:var(--ink-soft)">13:00–13:50</td>
+            <td style="padding:.5rem .5rem;font-weight:700">무대 세팅</td>
+            <td style="padding:.5rem .5rem;font-size:.78rem;color:var(--ink-soft)">현장 점검</td>
           </tr>
           <tr style="border-bottom:1px solid var(--line)">
-            <td style="padding:.5rem .6rem;white-space:nowrap;color:var(--ink-soft)">14:35–14:37</td>
-            <td style="padding:.5rem .6rem;font-weight:700">대표기도</td>
-            <td style="padding:.5rem .6rem">이상훈 장로</td>
-            <td style="padding:.5rem .6rem;font-size:.78rem;color:var(--ink-soft)">미라클TF팀 위원회 부위원장</td>
+            <td style="padding:.5rem .5rem;white-space:nowrap;color:var(--ink-soft)">13:50–14:00</td>
+            <td style="padding:.5rem .5rem;font-weight:700">선교팀 착석</td>
+            <td style="padding:.5rem .5rem;font-size:.78rem;color:var(--ink-soft)">좌석: 팀별 봉사자 안내 · 순서지: TF팀 입구에서 배부</td>
           </tr>
           <tr style="border-bottom:1px solid var(--line)">
-            <td style="padding:.5rem .6rem;white-space:nowrap;color:var(--ink-soft)">14:37–14:40</td>
-            <td style="padding:.5rem .6rem;font-weight:700">찬양대</td>
-            <td style="padding:.5rem .6rem">드보라</td>
-            <td style="padding:.5rem .6rem"></td>
-          </tr>
-          <tr style="border-bottom:1px solid var(--line)">
-            <td style="padding:.5rem .6rem;white-space:nowrap;color:var(--ink-soft)">14:40–14:43</td>
-            <td style="padding:.5rem .6rem;font-weight:700">영상</td>
-            <td style="padding:.5rem .6rem">–</td>
-            <td style="padding:.5rem .6rem;font-size:.78rem;color:var(--ink-soft)">선교지 모습 영상</td>
-          </tr>
-          <tr style="border-bottom:1px solid var(--line)">
-            <td style="padding:.5rem .6rem;white-space:nowrap;color:var(--ink-soft)">14:43–14:48</td>
-            <td style="padding:.5rem .6rem;font-weight:700">간증</td>
-            <td style="padding:.5rem .6rem">김종인 집사</td>
-            <td style="padding:.5rem .6rem;font-size:.78rem;color:var(--ink-soft)">미라클13팀(의료/미용)</td>
-          </tr>
-          <tr style="border-bottom:1px solid var(--line)">
-            <td style="padding:.5rem .6rem;white-space:nowrap;color:var(--ink-soft)">14:48–14:50</td>
-            <td style="padding:.5rem .6rem;font-weight:700">성경봉독</td>
-            <td style="padding:.5rem .6rem">이효상 목사</td>
-            <td style="padding:.5rem .6rem"></td>
-          </tr>
-          <tr style="border-bottom:1px solid var(--line);background:rgba(139,26,26,.05)">
-            <td style="padding:.5rem .6rem;white-space:nowrap;color:var(--ink-soft)">14:50–15:00</td>
-            <td style="padding:.5rem .6rem;font-weight:700;color:var(--red)">설교</td>
-            <td style="padding:.5rem .6rem;font-weight:700">박노훈 담임목사</td>
-            <td style="padding:.5rem .6rem"></td>
-          </tr>
-          <tr style="border-bottom:1px solid var(--line)">
-            <td style="padding:.5rem .6rem;white-space:nowrap;color:var(--ink-soft)">15:00–15:05</td>
-            <td style="padding:.5rem .6rem;font-weight:700">미라클선교 현황보고</td>
-            <td style="padding:.5rem .6rem">신우철 장로</td>
-            <td style="padding:.5rem .6rem;font-size:.78rem;color:var(--ink-soft)">미라클TF팀 위원회 위원장</td>
-          </tr>
-          <tr style="border-bottom:1px solid var(--line)">
-            <td style="padding:.5rem .6rem;white-space:nowrap;color:var(--ink-soft)">15:05–15:10</td>
-            <td style="padding:.5rem .6rem;font-weight:700">특송</td>
-            <td style="padding:.5rem .6rem">선교팀 전체</td>
-            <td style="padding:.5rem .6rem;font-size:.78rem;color:var(--ink-soft)">그리스도의 계절</td>
-          </tr>
-          <tr style="border-bottom:1px solid var(--line)">
-            <td style="padding:.5rem .6rem;white-space:nowrap;color:var(--ink-soft)">15:10–15:15</td>
-            <td style="padding:.5rem .6rem;font-weight:700">대표자 선서</td>
-            <td style="padding:.5rem .6rem">부서별 담당자</td>
-            <td style="padding:.5rem .6rem;font-size:.78rem;color:var(--ink-soft)">장년부: 김남훈 / 청년부: 서영심 / 교회학교: 미정</td>
-          </tr>
-          <tr style="border-bottom:1px solid var(--line);background:rgba(139,26,26,.05)">
-            <td style="padding:.5rem .6rem;white-space:nowrap;color:var(--ink-soft)">15:15–15:25</td>
-            <td style="padding:.5rem .6rem;font-weight:700;color:var(--red)">출정선포 및 통성기도</td>
-            <td style="padding:.5rem .6rem;font-weight:700">박노훈 담임목사</td>
-            <td style="padding:.5rem .6rem"></td>
-          </tr>
-          <tr style="border-bottom:1px solid var(--line)">
-            <td style="padding:.5rem .6rem;white-space:nowrap;color:var(--ink-soft)">15:25–15:28</td>
-            <td style="padding:.5rem .6rem;font-weight:700">축복기도</td>
-            <td style="padding:.5rem .6rem">박노훈 담임목사</td>
-            <td style="padding:.5rem .6rem"></td>
+            <td style="padding:.5rem .5rem;white-space:nowrap;color:var(--ink-soft)">14:00–14:25</td>
+            <td style="padding:.5rem .5rem;font-weight:700">현장 리허설</td>
+            <td style="padding:.5rem .5rem;font-size:.78rem;color:var(--ink-soft)">선교팀특송/선서자/찬양팀 (선서 시 마이크+거치대 각각 3개 사용)</td>
           </tr>
           <tr>
-            <td style="padding:.5rem .6rem;white-space:nowrap;color:var(--ink-soft)">15:28–15:30</td>
-            <td style="padding:.5rem .6rem;font-weight:700">축도</td>
-            <td style="padding:.5rem .6rem">박노훈 담임목사</td>
-            <td style="padding:.5rem .6rem;font-size:.78rem;color:var(--ink-soft)">축도 후 단체 사진 촬영</td>
+            <td style="padding:.5rem .5rem;white-space:nowrap;color:var(--ink-soft)">14:25–14:30</td>
+            <td style="padding:.5rem .5rem;font-weight:700">대기</td>
+            <td style="padding:.5rem .5rem;font-size:.78rem;color:var(--ink-soft)">메인 페이지 BGM 송출</td>
           </tr>
         </tbody>
       </table>
     </div>
-    <p style="font-size:.78rem;color:var(--ink-soft);margin-top:.7rem">작성일자: 2026.05.27 · 기독교대한성결교회 신촌교회</p>
+    <div style="background:#FFF3E0;border:1px solid #F0C674;border-radius:8px;padding:.8rem 1rem;margin-top:.9rem;font-size:.83rem;color:#8a5a00;line-height:1.7">
+      <b>📌 선교팀 안내</b><br>
+      · 선교팀 단체복 착용 (사역자 포함)<br>
+      · 팀별 대표자(사역자/단장/총무) 선정 → 특송 및 선서 시 강대상 등단<br>
+      · 시간 맞춰 오기 — 팀별 봉사자 1명씩/간증자(김종인 집사)/선서자(3명)/팀별대표자 → <b>13:30까지</b> / 전체 팀원 → <b>13:50</b><br>
+      · 특송 곡 숙지해 오기 — <b>특송곡: 그리스도의 계절</b>
+    </div>
+  </div>
+
+  <!-- 좌석배치도 -->
+  <div style="background:#fff;border-radius:var(--r);padding:1.1rem 1.2rem;margin-bottom:.9rem;border:1px solid var(--line)">
+    <div style="font-weight:700;color:var(--red);font-size:.9rem;margin-bottom:.9rem;padding-bottom:.5rem;border-bottom:1px solid var(--line)">🪑 아천홀 강대상 · 좌석배치도</div>
+    <div style="display:grid;grid-template-columns:1fr auto 1fr;gap:.5rem;align-items:stretch">
+      <div style="display:flex;flex-direction:column;gap:.5rem">
+        <div style="background:#FBD8C8;border-radius:10px;padding:.7rem .6rem;font-size:.78rem;line-height:1.6;text-align:center;font-weight:700">찬양팀(14팀)<br>단장/총무(1~7팀)<br>찬양대</div>
+        <div style="background:#FBD8C8;border-radius:10px;padding:.7rem .6rem;font-size:.78rem;line-height:1.6;text-align:center;font-weight:700">홍천(9팀)<br>일반좌석</div>
+      </div>
+      <div style="background:var(--sand);border-radius:10px;display:flex;align-items:center;justify-content:center;padding:.7rem .4rem;writing-mode:vertical-rl;font-weight:700;font-size:.85rem;color:var(--ink-soft);letter-spacing:.15em">중앙통로</div>
+      <div style="display:flex;flex-direction:column;gap:.5rem">
+        <div style="background:#FBD8C8;border-radius:10px;padding:.7rem .6rem;font-size:.78rem;line-height:1.6;text-align:center;font-weight:700">인도네시아(7팀) ★<br>대만(3팀)<br>몽골(2팀)</div>
+        <div style="background:#FBD8C8;border-radius:10px;padding:.7rem .6rem;font-size:.78rem;line-height:1.6;text-align:center;font-weight:700">일본(1팀)<br>베트남(4팀)<br>일반좌석</div>
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:.5rem;margin-top:.5rem">
+      <div style="background:#FBD8C8;border-radius:10px;padding:.7rem .6rem;font-size:.78rem;line-height:1.6;text-align:center;font-weight:700">베트남(의료미용)<br>라오스(5팀)<br>라오스(12팀)</div>
+      <div style="background:#FBD8C8;border-radius:10px;padding:.7rem .6rem;font-size:.78rem;line-height:1.6;text-align:center;font-weight:700">담임목사님<br>기도자/간증자<br>단장/총무(8~14팀)<br>말레이시아(8팀)</div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:.5rem;margin-top:.5rem">
+      <div style="background:#FBD8C8;border-radius:10px;padding:.7rem .6rem;font-size:.78rem;line-height:1.6;text-align:center;font-weight:700">몽골(6팀)<br>네팔(10팀)<br>일반좌석</div>
+      <div style="background:#FBD8C8;border-radius:10px;padding:.7rem .6rem;font-size:.78rem;line-height:1.6;text-align:center;font-weight:700">상주(11팀)<br>일반좌석</div>
+    </div>
+    <div style="display:flex;justify-content:space-between;margin-top:.7rem;font-weight:900;font-size:.95rem;color:var(--ink-soft)"><span>🚪 입구</span><span>🚪 입구</span></div>
+    <p style="font-size:.78rem;color:var(--red);margin-top:.7rem;font-weight:700;text-align:center">★ 인도네시아팀(7팀) 좌석은 왼쪽 상단 구역입니다</p>
+  </div>
+
+  <!-- 예배 순서 -->
+  <div style="background:#fff;border-radius:var(--r);padding:1.1rem 1.2rem;margin-bottom:.9rem;border:1px solid var(--line)">
+    <div style="font-weight:700;color:var(--red);font-size:.9rem;margin-bottom:.8rem;padding-bottom:.5rem;border-bottom:1px solid var(--line)">🕐 예배 순서 (14:30~15:40)</div>
+    <div style="overflow-x:auto">
+      <table style="width:100%;border-collapse:collapse;font-size:.81rem;min-width:340px">
+        <thead>
+          <tr style="background:var(--red);color:#fff">
+            <th style="padding:.5rem .55rem;text-align:left;white-space:nowrap;border-radius:6px 0 0 0">시간</th>
+            <th style="padding:.5rem .55rem;text-align:left">내용</th>
+            <th style="padding:.5rem .55rem;text-align:left">담당</th>
+            <th style="padding:.5rem .55rem;text-align:left;border-radius:0 6px 0 0">비고</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom:1px solid var(--line)">
+            <td style="padding:.5rem .55rem;white-space:nowrap;color:var(--ink-soft)">14:30–14:40</td>
+            <td style="padding:.5rem .55rem;font-weight:700">경배와 찬양</td>
+            <td style="padding:.5rem .55rem">엄준민 목사</td>
+            <td style="padding:.5rem .55rem;font-size:.76rem;color:var(--ink-soft)">주일(4부) 찬양팀과 함께 진행 · 통성기도 시 미라클 공동기도제목 이미지 송출</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--line)">
+            <td style="padding:.5rem .55rem;white-space:nowrap;color:var(--ink-soft)">14:40–14:42</td>
+            <td style="padding:.5rem .55rem;font-weight:700">대표기도</td>
+            <td style="padding:.5rem .55rem">이상훈 장로</td>
+            <td style="padding:.5rem .55rem;font-size:.76rem;color:var(--ink-soft)">미라클선교 TF위원회 부위원장 · 통성기도 시 싱어 퇴장/찬양대 입장</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--line)">
+            <td style="padding:.5rem .55rem;white-space:nowrap;color:var(--ink-soft)">14:42–14:45</td>
+            <td style="padding:.5rem .55rem;font-weight:700">찬양대</td>
+            <td style="padding:.5rem .55rem">드보라</td>
+            <td style="padding:.5rem .55rem;font-size:.76rem;color:var(--ink-soft)">찬양 후 영상 상영을 위해 암전</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--line)">
+            <td style="padding:.5rem .55rem;white-space:nowrap;color:var(--ink-soft)">14:45–14:48</td>
+            <td style="padding:.5rem .55rem;font-weight:700">영상</td>
+            <td style="padding:.5rem .55rem">–</td>
+            <td style="padding:.5rem .55rem;font-size:.76rem;color:var(--ink-soft)">선교지 모습 및 현지 선교사 인터뷰 영상</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--line);background:rgba(139,26,26,.05)">
+            <td style="padding:.5rem .55rem;white-space:nowrap;color:var(--ink-soft)">14:48–14:51</td>
+            <td style="padding:.5rem .55rem;font-weight:700;color:var(--red)">간증</td>
+            <td style="padding:.5rem .55rem;font-weight:700">김종인 집사</td>
+            <td style="padding:.5rem .55rem;font-size:.76rem;color:var(--ink-soft)">미라클13팀(의료/미용) · 선교에 대한 마음나눔</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--line)">
+            <td style="padding:.5rem .55rem;white-space:nowrap;color:var(--ink-soft)">14:51–14:53</td>
+            <td style="padding:.5rem .55rem;font-weight:700">성경봉독</td>
+            <td style="padding:.5rem .55rem">이효상 목사</td>
+            <td style="padding:.5rem .55rem;font-size:.76rem;color:var(--ink-soft)">본문 미정</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--line);background:rgba(139,26,26,.05)">
+            <td style="padding:.5rem .55rem;white-space:nowrap;color:var(--ink-soft)">14:53–15:00</td>
+            <td style="padding:.5rem .55rem;font-weight:700;color:var(--red)">설교말씀</td>
+            <td style="padding:.5rem .55rem;font-weight:700">박노훈 담임목사</td>
+            <td style="padding:.5rem .55rem;font-size:.76rem;color:var(--ink-soft)">제목 미정 · 기도로 마무리 · 적용찬양이 있을 수 있음</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--line)">
+            <td style="padding:.5rem .55rem;white-space:nowrap;color:var(--ink-soft)">15:00–15:05</td>
+            <td style="padding:.5rem .55rem;font-weight:700">미라클선교 현황보고</td>
+            <td style="padding:.5rem .55rem">신우철 장로</td>
+            <td style="padding:.5rem .55rem;font-size:.76rem;color:var(--ink-soft)">미라클 전반적인 사역 보고</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--line);background:rgba(139,26,26,.05)">
+            <td style="padding:.5rem .55rem;white-space:nowrap;color:var(--ink-soft)">15:05–15:10</td>
+            <td style="padding:.5rem .55rem;font-weight:700;color:var(--red)">특송</td>
+            <td style="padding:.5rem .55rem;font-weight:700">선교팀 전체</td>
+            <td style="padding:.5rem .55rem;font-size:.76rem;color:var(--ink-soft)">팀별대표(사역자/단장/총무) 강대상 앞으로, 나머지는 자리에서 기립 · 특송곡: 그리스도의 계절</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--line);background:rgba(139,26,26,.05)">
+            <td style="padding:.5rem .55rem;white-space:nowrap;color:var(--ink-soft)">15:10–15:15</td>
+            <td style="padding:.5rem .55rem;font-weight:700;color:var(--red)">대표자 선서</td>
+            <td style="padding:.5rem .55rem;font-weight:700">선교팀</td>
+            <td style="padding:.5rem .55rem;font-size:.76rem;color:var(--ink-soft)">선서자 대표: 김남훈(장로)·서영심(청년)·송성경(유초등부) · 스탠드 무선마이크+거치대 3세트</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--line)">
+            <td style="padding:.5rem .55rem;white-space:nowrap;color:var(--ink-soft)">15:15–15:20</td>
+            <td style="padding:.5rem .55rem;font-weight:700">격려의 말씀 및 통성기도</td>
+            <td style="padding:.5rem .55rem">박노훈 담임목사</td>
+            <td style="padding:.5rem .55rem;font-size:.76rem;color:var(--ink-soft)">통성기도 시 밴드 (담당: 엄준민 목사)</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--line)">
+            <td style="padding:.5rem .55rem;white-space:nowrap;color:var(--ink-soft)">15:20–15:25</td>
+            <td style="padding:.5rem .55rem;font-weight:700">축복기도</td>
+            <td style="padding:.5rem .55rem">박노훈 담임목사</td>
+            <td style="padding:.5rem .55rem"></td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--line)">
+            <td style="padding:.5rem .55rem;white-space:nowrap;color:var(--ink-soft)">15:25–15:29</td>
+            <td style="padding:.5rem .55rem;font-weight:700">파송의 찬양</td>
+            <td style="padding:.5rem .55rem">다 같이</td>
+            <td style="padding:.5rem .55rem;font-size:.76rem;color:var(--ink-soft)">다같이 기립하여 찬양 — '하나님의 부르심'</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--line)">
+            <td style="padding:.5rem .55rem;white-space:nowrap;color:var(--ink-soft)">15:29–15:30</td>
+            <td style="padding:.5rem .55rem;font-weight:700">축도</td>
+            <td style="padding:.5rem .55rem">박노훈 담임목사</td>
+            <td style="padding:.5rem .55rem;font-size:.76rem;color:var(--ink-soft)">축도 후 건반 후주, 이후 BGM</td>
+          </tr>
+          <tr>
+            <td style="padding:.5rem .55rem;white-space:nowrap;color:var(--ink-soft)">15:27–15:40</td>
+            <td style="padding:.5rem .55rem;font-weight:700">단체사진촬영</td>
+            <td style="padding:.5rem .55rem">선교팀</td>
+            <td style="padding:.5rem .55rem;font-size:.76rem;color:var(--ink-soft)">무대 현수막 살짝 내리고 무대조명 전체 ON (담당: 이효상 목사)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- 특송곡 안내 -->
+  <div style="background:linear-gradient(135deg,var(--red-dark),var(--red-light));color:#fff;border-radius:var(--r);padding:1.2rem 1.3rem;margin-bottom:.9rem">
+    <div style="font-size:.8rem;font-weight:700;opacity:.8;margin-bottom:.5rem;letter-spacing:.06em">🎵 선교팀 특송곡</div>
+    <div style="font-family:'Noto Serif KR',serif;font-size:1.3rem;font-weight:700;margin-bottom:.5rem">그리스도의 계절</div>
+    <div style="font-size:.85rem;opacity:.85;line-height:1.6">진행: Intro4 – A(Rhythm) – B – C(+1, 여성) – A(남성) – B – CC – D – EE</div>
+    <div style="font-size:.8rem;opacity:.75;margin-top:.6rem">📌 곡을 미리 숙지해 오세요. 특송은 밴드로 진행되며, 팀별대표 입장 시 건반 반주가 함께합니다.</div>
+  </div>
+
+  <!-- 사역자 역할 -->
+  <div style="background:#fff;border-radius:var(--r);padding:1.1rem 1.2rem;margin-bottom:.9rem;border:1px solid var(--line)">
+    <div style="font-weight:700;color:var(--red);font-size:.9rem;margin-bottom:.8rem;padding-bottom:.5rem;border-bottom:1px solid var(--line)">👤 사역자 역할 분담 (담당사역자: 이효상 목사 — 전체 총괄 및 사회)</div>
+    <div class="info-row"><span class="info-label">박현일</span><span class="info-val">목사 · 전체 총괄</span></div>
+    <div class="info-row"><span class="info-label">박찬수</span><span class="info-val">목사 · 안내 총괄</span></div>
+    <div class="info-row"><span class="info-label">박성진</span><span class="info-val">목사 · 안내</span></div>
+    <div class="info-row"><span class="info-label">엄준민</span><span class="info-val">목사 · 찬양인도 (악기세팅)</span></div>
+    <div class="info-row"><span class="info-label">김희범</span><span class="info-val">목사 · 안내, 간증자 사전체크</span></div>
+    <div class="info-row"><span class="info-label">이요한</span><span class="info-val">목사 · 악기세팅 지원</span></div>
+    <div class="info-row"><span class="info-label">김요한</span><span class="info-val">목사 · 담임목사님 의전 (예배 전/후)</span></div>
+    <div class="info-row"><span class="info-label">유희숙</span><span class="info-val">목사 · 안내 (순서지 전달)</span></div>
+    <div class="info-row"><span class="info-label">송경옥</span><span class="info-val">전도사 · 안내 (순서지 전달)</span></div>
+    <div class="info-row"><span class="info-label">조병진</span><span class="info-val">전도사 · 안내 (순서지 전달)</span></div>
+    <div class="info-row" style="border-bottom:0"><span class="info-label">박성태</span><span class="info-val">목사 · 방송실 총괄 (음향/영상/조명/자막)</span></div>
+  </div>
+
+  <p style="font-size:.78rem;color:var(--ink-soft);margin-top:.2rem">작성일자: 2026.06.19 · 기독교대한성결교회 신촌교회</p>
+
   </div>
 </div>
 
